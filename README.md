@@ -1,9 +1,3 @@
-<p align="center">
-<img src="doc/scapy_logo.png" width=200>
-</p>
-
-<!-- start_ppi_description -->
-
 # Scapy
 
 [![Scapy unit tests](https://github.com/secdev/scapy/workflows/Scapy%20unit%20tests/badge.svg?event=push)](https://github.com/secdev/scapy/actions?query=workflow%3A%22Scapy+unit+tests%22+branch%3Amaster+event%3Apush) <!-- ignore_ppi -->
@@ -97,7 +91,26 @@ follow the instructions to install them.
 
 <!-- stop_ppi_description -->
 
-## Contributing
+# Scapy Lab
 
-Want to contribute? Great! Please take a few minutes to
-[read this](CONTRIBUTING.md)!
+This repository contains a minimal subset of files from the [Scapy](https://github.com/secdev/scapy) project (version v2.4.5) for educational and experimental use.
+
+### 📂 Included Components
+- `examples/` — Jupyter notebooks from Scapy’s `doc/notebooks/` directory (modern usage examples)
+- `run_scapy` & `run_scapy.bat` — launcher scripts for UNIX and Windows environments
+- `LICENSE` — GPL-2.0 license from the original Scapy project
+- `README.md` — this explanatory file
+
+### ⚙️ Purpose
+This repo serves as a lightweight environment to explore and test Scapy’s functionality without cloning the entire project.
+
+### ⚠️ License & Attribution
+All files are © the original Scapy authors under the **GNU GPL-2.0 license**.  
+This repo is **not affiliated** with or endorsed by the official Scapy maintainers.  
+For the full project, documentation, and updates, visit:  
+👉 [https://github.com/secdev/scapy](https://github.com/secdev/scapy)
+
+---
+
+💡 *Maintained for academic demonstration and network security learning purposes only.*
+
